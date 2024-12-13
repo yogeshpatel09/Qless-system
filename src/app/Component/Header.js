@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FaRegUser } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -15,8 +16,8 @@ export default function Header() {
           <a className="hover:underline">Contact</a>
         </Link> */}
         <div className="ml-6 bg-white text-green-600 px-4 py-2 rounded-lg shadow-md">
-          <Link href="/Login"  className="font-semibold hover:underline">
-            Login
+          <Link href="/Signup"  className="font-semibold hover:underline">
+          <FaRegUser />
           </Link>
         </div>
       </nav>
