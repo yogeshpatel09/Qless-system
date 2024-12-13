@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="#features">
           <a className="hover:underline">Features</a>
         </Link>*/}
-        <Link href="">
+        <Link href="/login">
           Login
         </Link> 
         <div className="ml-6 bg-white text-green-600 px-4 py-2 rounded-lg shadow-md">
