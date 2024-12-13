@@ -14,7 +14,7 @@ export default function Signup() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 bg-gradient-to-r from-teal-400 to-purple-500">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md text-center">
         <h1 className="text-2xl font-bold mb-6">Choose Signup Type</h1>
         <button
