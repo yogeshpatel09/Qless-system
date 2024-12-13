@@ -15,7 +15,7 @@ export default function Header() {
           <a className="hover:underline">Contact</a>
         </Link> */}
         <div className="ml-6 bg-white text-green-600 px-4 py-2 rounded-lg shadow-md">
-          <Link href="/login"  className="font-semibold hover:underline">
+          <Link href="/Login"  className="font-semibold hover:underline">
             Login
           </Link>
         </div>

@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main className='min-h-screen'>
+      <main className='bg-gray-200 min-h-screen flex justify-center items-center'>
         <HomeSection />
       </main>
 
