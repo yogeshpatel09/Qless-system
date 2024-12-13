@@ -11,13 +11,13 @@ export default function Header() {
         </Link>
         <Link href="#features">
           <a className="hover:underline">Features</a>
-        </Link>
-        <Link href="#contact">
-          <a className="hover:underline">Contact</a>
-        </Link> */}
+        </Link>*/}
+        <Link href="">
+          Login
+        </Link> 
         <div className="ml-6 bg-white text-green-600 px-4 py-2 rounded-lg shadow-md">
           <Link href="/Signup"  className="font-semibold hover:underline">
-          <FaRegUser />
+          Signup
           </Link>
         </div>
       </nav>
