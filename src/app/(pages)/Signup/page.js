@@ -6,11 +6,11 @@ export default function Signup() {
   const router = useRouter();
 
   const handleUserSignup = () => {
-    router.push('/signup/user'); // Redirect to User Signup
+    router.push('/Signup/user'); // Redirect to User Signup
   };
 
   const handleWorkSignup = () => {
-    router.push('/signup/work'); // Redirect to Work Signup
+    router.push('/Signup/work'); // Redirect to Work Signup
   };
 
   return (
