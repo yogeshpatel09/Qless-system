@@ -18,7 +18,7 @@ export default function Login() {
 
     // Simulate login logic
     alert("Login Successful!");
-    router.push("/dashboard"); // Redirect to dashboard or home after login
+    router.push("/users"); // Redirect to dashboard or home after login
   };
 
   return (
