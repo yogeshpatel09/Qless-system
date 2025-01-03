@@ -1,7 +1,5 @@
 'use client'
-
 import { useRouter } from 'next/navigation';
-
 const ItemDetail = () => {
   const router = useRouter();
   const { id } = router; // Access the dynamic parameter from the URL
